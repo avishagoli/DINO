@@ -4599,10 +4599,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,0,0);
 		
 		}
 		
-		
-		
-		
-		
 		function trueAndFalseAnswer(array) {
 			for (i = 0; i < array.length; i++) {
 				if (array[i][1] == true) {
@@ -5148,10 +5144,10 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/20.1.21_atlas_.png?1611154466359", id:"20.1.21_atlas_"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1611154466539", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1611154466539", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1611154466539", id:"an.ComboBox"}
+		{src:"images/20.1.21_atlas_.png?1611155048207", id:"20.1.21_atlas_"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1611155048368", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1611155048368", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1611155048368", id:"an.ComboBox"}
 	],
 	preloads: []
 };
