@@ -4458,7 +4458,7 @@ p._updateVisibility = _updateVisibility;
 		var cardArray = [
 			[
 				[lib.paper_plane, true, 0, 0],
-		/*		[lib.bottle, false, 0, 1],
+				[lib.bottle, false, 0, 1],
 				[lib.eggplant, true, 0, 2],
 				[lib.lamp, false, 0, 3],
 				[lib.paper_box, true, 0, 4],
@@ -4474,7 +4474,7 @@ p._updateVisibility = _updateVisibility;
 				["מלפפון", true, 0, 14],
 				["בקבוק זכוכית", false, 0, 15],
 				["עיתון", true, 0, 16],
-				["קלקר", false, 0, 17],*/
+				["קלקר", false, 0, 17],
 				["כדור צמר", true, 0, 18],
 				["טיטול", false, 0, 19]
 			],
@@ -5172,10 +5172,10 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/20.1.21_atlas_.png?1611165918714", id:"20.1.21_atlas_"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1611165918880", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1611165918880", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1611165918880", id:"an.ComboBox"}
+		{src:"images/20.1.21_atlas_.png?1611166093498", id:"20.1.21_atlas_"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1611166093690", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1611166093690", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1611166093690", id:"an.ComboBox"}
 	],
 	preloads: []
 };
