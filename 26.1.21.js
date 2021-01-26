@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"26.1.21_atlas_P_", frames: [[0,0,112,152],[0,154,32,32]]},
-		{name:"26.1.21_atlas_NP_", frames: [[0,722,1280,720],[0,1444,1280,720],[0,0,1280,720]]}
+		{name:"26.1.21_atlas_NP_", frames: [[0,0,1280,720],[0,722,1280,720],[0,1444,1280,720]]}
 ];
 
 
@@ -10774,7 +10774,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 		var cardArray = [
 			[
 				[lib.paper_plane, true, 0, 0],
-				/*		[lib.bottle, false, 0, 0],
+				[lib.bottle, false, 0, 0],
 				[lib.eggplant, true, 0, 0],
 				[lib.lamp, false, 0, 0],
 				[lib.paper_box, true, 0, 0],
@@ -10791,7 +10791,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 				["שקית ניילון", false, 0, 0],
 				["עיתון", true, 0, 0],
 				["קלקר", false, 0, 0],
-				["כדור צמר", true, 0, 0],*/
+				["כדור צמר", true, 0, 0],
 				["טיטול", false, 0, 0]
 			],
 			[
@@ -10799,21 +10799,21 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 				[lib.butterfly, false, 0, 0],
 				[lib.dolphin, true, 0, 0],
 				[lib.snail, false, 0, 0],
-				//	[lib.pig, true, 0, 0],
+				[lib.pig, true, 0, 0],
 				[lib.spider, false, 0, 0],
-				//	[lib.giraffe, true, 0, 0],
+				[lib.giraffe, true, 0, 0],
 				[lib.bee, false, 0, 0],
-				//	[lib.sheep, true, 0, 0],
+				[lib.sheep, true, 0, 0],
 				[lib.penguin, false, 0, 0],
-				//	[lib.rabbit, true, 0, 0],
+				[lib.rabbit, true, 0, 0],
 				[lib.turtle, false, 0, 0],
-				//	[lib.dog, true, 0, 0],
+				[lib.dog, true, 0, 0],
 				[lib.fish, false, 0, 0],
-				//[lib.cat, true, 0, 0],
+				[lib.cat, true, 0, 0],
 				["נחש", false, 0, 0],
-				//	["עטלף", true, 0, 0],
+				["עטלף", true, 0, 0],
 				["תנין", false, 0, 0],
-				//["אלפקה", true, 0, 0],
+				["אלפקה", true, 0, 0],
 				["כריש", false, 0, 0]
 			]
 		]
@@ -10844,9 +10844,9 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 		]
 		var stageH = 720;
 		var stageW = 1240;
-		createjs.Sound.registerSound("/sounds/catchTrue_Smp3.mp3", "Woo");
-		createjs.Sound.registerSound("/sounds/_1missed_true_catch_false.mp3", "HoNo");
-		createjs.Sound.registerSound("/sounds/gamebackgroundmusicloopshortmp3.mp3", "backgroundmusic");
+		createjs.Sound.registerSound("./sounds/catchTrue_Smp3.mp3", "Woo");
+		createjs.Sound.registerSound("./sounds/_1missed_true_catch_false.mp3", "HoNo");
+		createjs.Sound.registerSound("./sounds/gamebackgroundmusicloopshortmp3.mp3", "backgroundmusic");
 		
 		
 		var notPlaying = 0;
@@ -11594,11 +11594,11 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/26.1.21_atlas_P_.png?1611677378779", id:"26.1.21_atlas_P_"},
-		{src:"images/26.1.21_atlas_NP_.jpg?1611677378779", id:"26.1.21_atlas_NP_"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1611677379818", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1611677379818", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1611677379818", id:"an.ComboBox"}
+		{src:"images/26.1.21_atlas_P_.png?1611678605755", id:"26.1.21_atlas_P_"},
+		{src:"images/26.1.21_atlas_NP_.jpg?1611678605755", id:"26.1.21_atlas_NP_"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1611678606789", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1611678606789", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1611678606789", id:"an.ComboBox"}
 	],
 	preloads: []
 };
