@@ -9525,7 +9525,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 		
 		var cardArray = [
 			[
-				[lib.paper_plane, true, 0, 0],
+		/*		[lib.paper_plane, true, 0, 0],
 				[lib.bottle, false, 0, 0],
 				[lib.eggplant, true, 0, 0],
 				[lib.lamp, false, 0, 0],
@@ -9542,7 +9542,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 				["מלפפון", true, 0, 0],
 				["שקית ניילון", false, 0, 0],
 				["עיתון", true, 0, 0],
-				["קלקר", false, 0, 0],
+				["קלקר", false, 0, 0],*/
 				["כדור צמר", true, 0, 0],
 				["טיטול", false, 0, 0]
 			],
@@ -10368,11 +10368,11 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/29.1.21_atlas_P_.png?1611908233448", id:"29.1.21_atlas_P_"},
-		{src:"images/29.1.21_atlas_NP_.jpg?1611908233448", id:"29.1.21_atlas_NP_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1611908234639", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1611908234639", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1611908234639", id:"an.ComboBox"}
+		{src:"images/29.1.21_atlas_P_.png?1611908740023", id:"29.1.21_atlas_P_"},
+		{src:"images/29.1.21_atlas_NP_.jpg?1611908740023", id:"29.1.21_atlas_NP_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1611908741182", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1611908741182", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1611908741182", id:"an.ComboBox"}
 	],
 	preloads: []
 };
