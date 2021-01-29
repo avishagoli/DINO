@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"29.1.21_atlas_P_", frames: [[0,0,112,152],[0,154,32,32]]},
-		{name:"29.1.21_atlas_NP_", frames: [[0,1444,1280,720],[0,722,1280,720],[0,0,1280,720]]}
+		{name:"29.1.21_atlas_NP_", frames: [[0,0,1280,720],[0,722,1280,720],[0,1444,1280,720]]}
 ];
 
 
@@ -6549,7 +6549,7 @@ p.nominalBounds = new cjs.Rectangle(-0.2,-0.1,21.2,21.200000000000003);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8,p:{regY:10.5,scaleX:0.8292,scaleY:0.8292,x:50.05,y:71.7}}]}).to({state:[{t:this.instance_9}]},1).to({state:[{t:this.instance_8,p:{regY:10.6,scaleX:0.827,scaleY:0.829,x:50,y:71.8}}]},1).wait(94));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-196.3,-117.1,269.4,197.6);
+p.nominalBounds = new cjs.Rectangle(-196.2,-117.1,269.29999999999995,197.6);
 
 
 (lib.card = function(mode,startPosition,loop) {
@@ -9951,7 +9951,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 			if (currentKeyPressed == 37) {
 				//left
 				notPlaying = 0
-				dino.gotoAndPlay(1);
+				dino.gotoAndStop(1);
 		
 		
 				if (dino.x > 70) {
@@ -9967,7 +9967,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 			if (currentKeyPressed == 39) {
 				//right
 				notPlaying = 0
-				dino.gotoAndPlay(1);
+				dino.gotoAndStop(1);
 		
 				if (dino.x < stageW - 10) {
 					createjs.Tween.get(dino).to({
@@ -10499,11 +10499,11 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/29.1.21_atlas_P_.png?1611904775745", id:"29.1.21_atlas_P_"},
-		{src:"images/29.1.21_atlas_NP_.jpg?1611904775745", id:"29.1.21_atlas_NP_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1611904776790", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1611904776790", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1611904776790", id:"an.ComboBox"}
+		{src:"images/29.1.21_atlas_P_.png?1611905392705", id:"29.1.21_atlas_P_"},
+		{src:"images/29.1.21_atlas_NP_.jpg?1611905392705", id:"29.1.21_atlas_NP_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1611905394176", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1611905394176", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1611905394176", id:"an.ComboBox"}
 	],
 	preloads: []
 };
