@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"29.1.21_atlas_P_", frames: [[0,0,112,152],[0,154,32,32]]},
-		{name:"29.1.21_atlas_NP_", frames: [[0,0,1280,720],[0,722,1280,720],[0,1444,1280,720]]}
+		{name:"29.1.21_atlas_NP_", frames: [[0,722,1280,720],[0,0,1280,720],[0,1444,1280,720]]}
 ];
 
 
@@ -10499,11 +10499,11 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/29.1.21_atlas_P_.png?1611905392705", id:"29.1.21_atlas_P_"},
-		{src:"images/29.1.21_atlas_NP_.jpg?1611905392705", id:"29.1.21_atlas_NP_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1611905394176", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1611905394176", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1611905394176", id:"an.ComboBox"}
+		{src:"images/29.1.21_atlas_P_.png?1611905476109", id:"29.1.21_atlas_P_"},
+		{src:"images/29.1.21_atlas_NP_.jpg?1611905476109", id:"29.1.21_atlas_NP_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1611905477250", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1611905477250", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1611905477250", id:"an.ComboBox"}
 	],
 	preloads: []
 };
