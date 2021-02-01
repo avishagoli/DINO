@@ -10065,7 +10065,6 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 			}
 			stage.addChild(topGameScreen)
 		
-			topGameScreen.stopGame_btn.addEventListener("click", createStopGameScreen)
 			topGameScreen.audio_btn.addEventListener("click", stopMusic)
 		
 		}
