@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"30.1.21_atlas_P_", frames: [[0,0,112,152],[0,154,32,32]]},
-		{name:"30.1.21_atlas_NP_", frames: [[0,0,1280,720],[0,1444,1280,720],[0,722,1280,720]]}
+		{name:"30.1.21_atlas_NP_", frames: [[0,1444,1280,720],[0,0,1280,720],[0,722,1280,720]]}
 ];
 
 
@@ -9872,7 +9872,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 						x: dino.x - 9,
 						override: true
 					}, 10);
-					//dino.x -= dinoSideMovment; //כל עוד לא הגיע לגבול תתבצע תנועה שמאלה
+					//כל עוד לא הגיע לגבול תתבצע תנועה שמאלה
 		
 				}
 			}
@@ -9887,7 +9887,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 						override: true
 					}, 10);
 					//מהירות הדמות
-					//dino.x += dinoSideMovment; //כל עוד לא הגיע לגבול תתבצע תנועה ימינה
+					//כל עוד לא הגיע לגבול תתבצע תנועה ימינה
 				}
 			}
 		}
@@ -9910,7 +9910,7 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 		
 				}
 				//תופס את הקלף שנופל
-				// אמינציה פנימית של דינוזאור רוקד
+				// אמינציה פנימית של דינוזאור 
 				//בועית לחיווי הצלחה 
 				resultArray.push(fallingCardsArray[0])
 				fallingCardsArray.splice(0, 1); 
@@ -9942,7 +9942,6 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 				//תופס את הקלף שנופל
 				// אמינציה פנימית של דינוזאור עצוב
 				//בועית לחיווי אי הצלחה 
-				//תפסתי ולא נכון- חוזר?
 		
 				var rndFeedback = Math.floor(Math.random() * negativeFeedbackArray.length);
 				feedbackBubble.feedback_txt.text = negativeFeedbackArray[rndFeedback] //רנדום של המערך 
@@ -10154,13 +10153,13 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 		
 					return createStopGameScreen(",תחזרו מהר", "!אני מחכה לכם");
 				}
-				if (event.keyCode == 38) {
-					// up to open the box with inner animation
+				//if (event.keyCode == 38) {
+				//	// up to open the box with inner animation
 		
-				}
-				if (event.keyCode == 40) {
-					//down to close the box with inner animation
-				}
+				//}
+				//if (event.keyCode == 40) {
+				//	//down to close the box with inner animation
+				//}
 			}
 		}
 		
@@ -10192,16 +10191,13 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 		
 		function backToGame() {
 			notPlaying = 0
-			var gameScreen = stage.getChildByName("gameScreen")
-			var topGameScreen = stage.getChildByName("topGameScreen")
+			//var gameScreen = stage.getChildByName("gameScreen")
+		//	var topGameScreen = stage.getChildByName("topGameScreen")
 			var stopGameScreen = stage.getChildByName("stopGameScreen")
 			stage.removeChild(stopGameScreen)
 		
 			createjs.Ticker.paused = false;
 			timeInterval = setInterval(timer, 1000);
-		
-		
-		
 		}
 		
 		function createEndGameSummaryScreen() {
@@ -10374,11 +10370,11 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/30.1.21_atlas_P_.png?1612000138860", id:"30.1.21_atlas_P_"},
-		{src:"images/30.1.21_atlas_NP_.jpg?1612000138860", id:"30.1.21_atlas_NP_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612000139867", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612000139867", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1612000139867", id:"an.ComboBox"}
+		{src:"images/30.1.21_atlas_P_.png?1612004852065", id:"30.1.21_atlas_P_"},
+		{src:"images/30.1.21_atlas_NP_.jpg?1612004852065", id:"30.1.21_atlas_NP_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612004853215", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1612004853215", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1612004853215", id:"an.ComboBox"}
 	],
 	preloads: []
 };
