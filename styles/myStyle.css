@@ -74,16 +74,14 @@ header {
 
 nav {
     direction: rtl;
-    max-width: 13%;
     height: 100%;
     display: flex;
-    flex: 1;
+    margin-left: 1rem;
 }
 
     nav ul {
         height: 100%;
         margin: 0;
-        /* display: flex; */
         padding: 0;
     }
 
@@ -111,19 +109,7 @@ nav {
                     direction: rtl;
                     text-decoration: none;
                 }
-#mycb {
-    display: block;
-    pointer-events: all;
-    box-sizing: border-box;
-    position: absolute;
-    width: 240.947px;
-    height: 53.0083px;
-    transform-origin: 50px 11px;
-    transform: matrix(0.8, 0, 0, 0.8, 549.641, 326.354);
-    direction: rtl;
-    font-family: 'Calibri', sans-serif;
-    background: border-box;
-}
+
 .popUp {
     position: fixed;
     top: 60px;
@@ -164,9 +150,10 @@ nav {
     align-content: baseline;
     display: flex;
 }
+
 .imgKey {
     width: 100%;
-
+    margin-top: -2%;
 }
 
 #aboutDiv > a {
