@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"Dino_atlas_P_", frames: [[0,0,112,152],[0,154,32,32]]},
-		{name:"Dino_atlas_NP_", frames: [[0,722,1280,720],[0,1444,1280,720],[0,0,1280,720]]}
+		{name:"Dino_atlas_NP_", frames: [[0,1444,1280,720],[0,0,1280,720],[0,722,1280,720]]}
 ];
 
 
@@ -9700,8 +9700,8 @@ p.nominalBounds = new cjs.Rectangle(0,-7.5,1280,727.5);
 				[lib.milk, true, 0],
 				[lib.chair, false, 0],
 				["מלפפון", true, 0],
-				["שקית ניילון", false, 0],
-				["עיתון", true, 0],
+				["בקבוק פלסטיק", false, 0],
+				["אנציקלופדיה", true, 0],
 				["קלקר", false, 0],
 				["כדור צמר", true, 0],
 				["טיטול", false, 0]
@@ -10514,11 +10514,11 @@ lib.properties = {
 	color: "#B8E2F9",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Dino_atlas_P_.png?1612890213439", id:"Dino_atlas_P_"},
-		{src:"images/Dino_atlas_NP_.jpg?1612890213439", id:"Dino_atlas_NP_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612890214610", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1612890214610", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1612890214610", id:"an.ComboBox"}
+		{src:"images/Dino_atlas_P_.png?1612967630596", id:"Dino_atlas_P_"},
+		{src:"images/Dino_atlas_NP_.jpg?1612967630596", id:"Dino_atlas_NP_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1612967633776", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1612967633776", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1612967633776", id:"an.ComboBox"}
 	],
 	preloads: []
 };
